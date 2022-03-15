@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Inspiration</title>
+<style>
+    *{
+        background: scroll;
+        background-color: antiquewhite;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h1{
+        color:blue;
+        text-align: center;
+        font-size: 500%
+    }
+    #container {
+        position: relative;
+        width: 368px;
+        height: 500px;
+    }
+    #container div {
+        position: absolute;
+        width: 368px;
+        height: 500px;
+        opacity: 0;
+        background-image: url(https://boomsumo.com/wp-content/uploads/2018/11/Top-55-Motivational-And-Inspirational-Quotes-for-success-Life-Extremely-54.jpg);
+        background-size: 50%
+    }
+    #container div.bottom {
+        opacity: 1;
+        background-image: url(https://www.dreamsquote.com/wp-content/uploads/2018/08/300-Motivational-Inspirational-Quotes-For-Success-Life-7.jpg);
+        background-size: 50%
+    }
+    #container div.top {
+        -webkit-animation: anim 11s infinite alternate;
+        animation: anim 11s infinite alternate;
+    }
+    @-webkit-keyframes anim {
+    0% {
+        opacity: 0;
+    }
+    36.36% {
+        opacity: 0.5;
+    }
+    63.63% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+}
+}
+    @keyframes anim {
+    0% {
+        opacity: 0;
+}
+    36.36% {
+        opacity: 0.5;
+}
+    63.63% {
+        opacity: 1;
+}
+    100% {
+        opacity: 0.5;
+}
+} 
+</style>    
+</head>
+<body>
+<h1>Daily Inspiration</h1>  
+
+<p>Life is <strong>NOT</strong> always easy. During all the hustle and bustle, we forget the litte things that matter. One thing I like to remember is that the <em>only</em> thing we can control in this world is <strong><em>OURSELVES</em></strong>. 
+<br><br>
+Over the next 24 weeks, many of us will be tested. Many of us will wonder what the heck we are doing here. Together, we can be here for each other to make sure we all make it to the other side!
+<br><br>
+Below are some quotes that may help you get through the week. 
+<br><br>
+Check back weekly for new quotes for inspiration.
+</p>
+
+<div id="container">
+    <div class="bottom"></div>
+    <div class="top"></div>
+</div>
+<!-- <div id="container2">
+    <div> class="bottom2"</div>
+    <div> class="top2"</div>
+</div> -->
+</body>
+</html>
